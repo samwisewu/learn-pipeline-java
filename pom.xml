@@ -10,11 +10,11 @@
 
     <distributionManagement>
         <snapshotRepository>
-            <id>github</id>
+            <id>nexus</id>
             <url>http://192.168.11.132:8088/repository/maven-snapshots/</url>
         </snapshotRepository>
         <repository>
-            <id>github</id>
+            <id>nexus</id>
             <url>http://192.168.11.132:8088/repository/maven-releases/</url>
         </repository>
     </distributionManagement>
